@@ -1,0 +1,30 @@
+.wrap-input-text{
+    padding : 1rem;
+}
+
+.wrap-input-text input {
+    border : 1px solid;
+}
+
+.wrap-boxes{
+    padding : 1rem;
+    flex-direction: column;
+}
+
+.wrap-boxes .box-parent {
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 20rem;
+    height: 20rem;
+    background-color: yellowgreen;
+}
+
+.wrap-boxes .box-parent .box-child{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color:burlywood;
+}
